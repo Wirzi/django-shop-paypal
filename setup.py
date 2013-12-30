@@ -19,6 +19,6 @@ setup(
         'Django>=1.2',
         'django-paypal',
     ],
-    packages=find_packages(exclude=["example", "example.*"]),
+    packages=find_packages(),
     zip_safe=False
 )
